@@ -1,0 +1,2679 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/basic/favicon.ico" type="image/x-icon">
+    <title>Record</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body class="sidebar-mini sidebar-collapse theme-dark  sidebar-expanded-on-hover has-preloader" style="display: none;">
+<!-- Pre loader
+  To disable preloader remove 'has-preloader' from body
+ -->
+
+<div id="loader" class="loader">
+    <div class="loader-container">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+            </div><div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+            </div>
+
+            <div class="spinner-layer spinner-red">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+            </div><div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+            </div>
+
+            <div class="spinner-layer spinner-yellow">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+            </div><div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+            </div>
+
+            <div class="spinner-layer spinner-green">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+            </div><div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- @Pre loader-->
+<div id="app">
+
+
+<aside class="main-sidebar fixed offcanvas shadow" data-toggle='offcanvas'>
+    <div class="sidebar">
+        <ul class="sidebar-menu">
+            <li><a class="ajaxifyPage active" href="index.html">
+                <i class="icon icon-home-1 s-24"></i> <span>Home</span>
+            </a>
+            <li>
+            <li><a class="ajaxifyPage" href="albums.html">
+                <i class="icon icon-windows s-24"></i> <span>Albums</span>
+            </a>
+            </li>
+
+        </ul>
+
+    </div>
+</aside>
+<!--Sidebar End-->
+
+<!-- Right Sidebar -->
+<aside class="control-sidebar fixed ">
+    <div class="slimScroll">
+        <div class="sidebar-header">
+            <h4>PlayList</h4>
+            <p>Awesome Collection for you</p>
+            <a href="#" data-toggle="control-sidebar" class="paper-nav-toggle  active"><i></i></a>
+        </div>
+        <div class="p-3">
+            <ul id="playlist" class="playlist list-group">
+                <li class="list-group-item my-1">
+                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1413142894.mp3" >
+                        <div class="d-flex justify-content-between align-items-center">
+                            <i class="icon-play s-28"></i>
+
+                            </figure>
+                            <div>
+                                <h6>大眠.小乐哥
+                            </div>
+                            <span class="badge badge-primary badge-pill"> 播放</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-group-item my-1">
+                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1357999894.mp3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <i class="icon-play s-28"></i>
+
+                            </figure>
+                            <div>
+                                <h6>归去来兮.花粥
+                            </div>
+                            <span class="badge badge-primary badge-pill"> 播放</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-group-item my-1">
+                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=168107.mp3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <i class="icon-play s-28"></i>
+                            
+                                
+                            </figure>
+                            <div>
+                                <h6>故乡.许巍
+                            </div>
+                            <span class="badge badge-primary badge-pill"> 播放</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="list-group-item my-1">
+                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=76933.mp3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <i class="icon-play s-28"></i>
+
+                            </figure>
+                            <div>
+                                <h6>永远的兄弟.刀郎
+                            </div>
+                            <span class="badge badge-primary badge-pill"> 播放</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="list-group-item my-1">
+                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1411558182.mp3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <i class="icon-play s-28"></i>
+
+                            </figure>
+                            <div>
+                                <h6>东北民谣.东北民谣
+                            </div>
+                            <span class="badge badge-primary badge-pill"> 播放</span>
+                        </div>
+                    </a>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </div>
+</aside>
+<!-- /.right-sidebar -->
+<!-- Add the sidebar's background. This div must be placed
+         immediately after the control sidebar -->
+<div class="control-sidebar-bg shadow  fixed"></div>
+
+<svg class="d-none">
+    <defs>
+        <symbol id="icon-cross" viewBox="0 0 24 24">
+            <title>cross</title>
+            <path
+                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+        </symbol>
+    </defs>
+</svg>
+<div class="searchOverlay page">
+    <button
+            id="btn-searchOverlay-close"
+            class="btn btn--searchOverlay-close"
+            aria-label="Close searchOverlay form"
+    >
+        <svg class="icon icon--cross">
+            <use xlink:href="#icon-cross"></use>
+        </svg>
+    </button>
+    <div class="searchOverlay__inner  searchOverlay__inner--up">
+        <form class="searchOverlay__form" action="index.html">
+            <input
+                    class="searchOverlay__input"
+                    name="searchOverlay"
+                    type="text"
+                    placeholder="Search"
+                    autocomplete="off"
+                    spellcheck="false"
+            />
+            <span class="searchOverlay__info">Hit enter to searchOverlay or ESC to close</span>
+        </form>
+    </div>
+    <div class="searchOverlay__inner searchOverlay__inner--down">
+        <div class="searchOverlay__related">
+            <div class="searchOverlay__suggestion">
+                <div class="card mb-3">
+                    <div class="card-header transparent b-b">
+                        <strong>New Artists</strong>
+                    </div>
+                    <ul class="playlist list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <div class="col-10">
+                                    <figure class="avatar avatar-md float-left  mr-3 mt-1">
+                                        <img src="assets/img/demo/u1.jpg" alt="">
+                                    </figure>
+                                    <h6>Zoe Foe</h6>
+                                    <small>5 Albums - 50 Songs</small>
+                                </div>
+                                <a href="#" class="ml-auto"><i class="icon-more"></i></a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <div class="col-10">
+                                    <figure class="avatar avatar-md float-left  mr-3 mt-1">
+                                        <img src="assets/img/demo/u2.jpg" alt="">
+                                    </figure>
+                                    <h6>Zoe Foe</h6>
+                                    <small>5 Albums - 50 Songs</small>
+                                </div>
+                                <a href="#" class="ml-auto"><i class="icon-more"></i></a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <div class="col-10">
+                                    <figure class="avatar avatar-md float-left  mr-3 mt-1">
+                                        <img src="assets/img/demo/u3.jpg" alt="">
+                                    </figure>
+                                    <h6>Zoe Foe</h6>
+                                    <small>5 Albums - 50 Songs</small>
+                                </div>
+                                <a href="#" class="ml-auto"><i class="icon-more"></i></a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <div class="col-10">
+                                    <figure class="avatar avatar-md float-left  mr-3 mt-1">
+                                        <img src="assets/img/demo/u6.jpg" alt="">
+                                    </figure>
+                                    <h6>Zoe Foe</h6>
+                                    <small>5 Albums - 50 Songs</small>
+                                </div>
+                                <a href="#" class="ml-auto"><i class="icon-more"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="searchOverlay__suggestion">
+                <div class="card mb-3">
+                    <div class="card-header transparent b-b">
+                        <strong>Events</strong>
+                    </div>
+                    <ul class="playlist list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center ">
+                                <div class="col-8 ">
+                                    <a href="video-single.html">
+                                        <h6>Battal of Bands</h6>
+                                    </a>
+                                    <small class="mt-1"><i class="icon-placeholder-3 mr-1 "></i> London Music Hall
+                                    </small>
+                                </div>
+                                <div class="ml-auto">
+                                    <div class="text-lg-center  bg-primary r-10 p-2 text-white primary-bg">
+                                        <div class="s-18">24</div>
+                                        <small>July, 2019</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center ">
+                                <div class="col-8 ">
+                                    <a href="video-single.html">
+                                        <h6>Battal of Bands</h6>
+                                    </a>
+                                    <small class="mt-1"><i class="icon-placeholder-3 mr-1 "></i> London Music Hall
+                                    </small>
+                                </div>
+                                <div class="ml-auto">
+                                    <div class="text-lg-center  bg-primary r-10 p-2 text-white primary-bg">
+                                        <div class="s-18">08</div>
+                                        <small>July, 2019</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center ">
+                                <div class="col-8 ">
+                                    <a href="video-single.html">
+                                        <h6>Battal of Bands</h6>
+                                    </a>
+                                    <small class="mt-1"><i class="icon-placeholder-3 mr-1 "></i> London Music Hall
+                                    </small>
+                                </div>
+                                <div class="ml-auto">
+                                    <div class="text-lg-center  bg-primary r-10 p-2 text-white primary-bg">
+                                        <div class="s-18">12</div>
+                                        <small>July, 2019</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--navbar-->
+<nav class="navbar-wrapper navbar-bottom-fixed shadow">
+    <div class="navbar navbar-expand player-header justify-content-between  bd-navbar">
+        <div class="d-flex align-items-center">
+            <a href="#" data-toggle="push-menu" class="paper-nav-toggle pp-nav-toggle ml-2 mr-2">
+                <i></i>
+            </a>
+            <a class="navbar-brand d-none d-lg-block" href="index.html">
+                <div class="d-flex align-items-center s-14 l-s-2">
+                    <span>RECORD</span>
+                </div>
+            </a>
+        </div>
+        <!--Player-->
+        <div id="mediaPlayer" class="player-bar col-lg-8 col-md-5" data-auto="true">
+            <div class="row align-items-center grid">
+                <div class="col">
+                    <div class="d-flex align-items-center">
+                        <button id="previousTrack" class="btn btn-link d-none d-sm-block">
+                            <i class="icon-back s-18"></i>
+                        </button>
+                        <button class=" btn btn-link" id="playPause">
+                            <span id="play"><i class="icon-play s-36"></i></span>
+                            <span id="pause" style="display: none"><i class="icon-pause s-36 text-primary"></i></span>
+                        </button>
+                        <button id="nextTrack" class="btn btn-link d-none d-sm-block">
+                            <i class="icon-next s-18"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-8 d-none d-lg-block">
+                    <div id="waveform"></div>
+                </div>
+                <div class="col d-none d-lg-block">
+                    <small class="track-time mr-2 text-primary align-middle"></small>
+                    <a data-toggle="control-sidebar">
+                        <i class="icon icon-menu-3 s-24 align-middle"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!--@Player-->
+        <!--Top Menu Start -->
+<div class="navbar-custom-menu">
+    <ul class="nav navbar-nav">
+
+        <!-- Right Sidebar Toggle Button -->
+        <li class="searchOverlay-wrap">
+            <a href="#" id="btn-searchOverlay" class="nav-link mr-3 btn--searchOverlay no-ajaxy">
+                <i class="icon icon-search s-24"></i>
+            </a>
+
+        </li>
+        <!-- User Account-->
+        <li class="dropup custom-dropdown user user-menu ">
+            <a href="#" class="nav-link" data-toggle="dropdown">
+                <figure class="avatar">
+                    <img src="assets/img/demo/u7.png" alt="">
+                </figure>
+                <i class="icon-more_vert "></i>
+            </a>
+            <div class="dropdown-menu p-4 dropdown-menu-right">
+                <div class="row box justify-content-between my-4">
+                    <div class="col text-center">
+                        <a class="ajaxifyPage" href="saved.html">
+                            <i class="icon icon-save s-24"></i> <span>Saved</span>
+                        </a>
+                    </div>
+                    <div class="col text-center">
+                        <a class="ajaxifyPage" href="saved.html">
+                            <i class="icon icon-heart s-24"></i> <span>Favourites</span>
+                        </a>
+                    </div>
+                    <div class="col text-center">
+                        <a class="ajaxifyPage" href="profile.html">
+                            <i class="icon-user-4  s-24"></i>
+                            <div class="pt-1">Profile</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+    </div>
+
+</nav>
+<!--Page Content-->
+<main id="pageContent" class="page has-sidebar">
+<div class="container-fluid relative animatedParent animateOnce no-p">
+    <div class="animated fadeInUpShort">
+        <!--Banner Slider-->
+        <section>
+            <div class="text-white">
+                <div class="lightSlider"
+                     data-item="1"
+                     data-controls="true"
+                     data-slide-margin="0"
+                     data-gallery="false"
+                     data-pause="8000"
+                     data-pauseonhover="true"
+                     data-auto="false"
+                     data-pager="false"
+                     data-loop="true">
+                    <div class="xv-slide" data-bg-possition="top"
+                         style="background-image:url('assets/img/demo/b1.jpg');">
+                        <div class="has-bottom-gradient">
+                            <div class="p-md-5 p-3">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 fadeInRight animated">
+                                        <div class="xv-slider-content clearfix color-white">
+                                            <h1 class="s-64 mt-5 font-weight-lighter">Mitaric</h1>
+                                            <p class="s-24 font-weight-lighter">Sed eget orci eleifend enim mattis
+                                                suscipit. <br>Suspendisse
+                                                potenti non ipsum.</p>
+                                            <div class="pt-3">
+                                                <a href="#" class="btn btn-primary btn-lg">Buy Now At iTunes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-gradient"></div>
+                    </div>
+                </div>
+            </div>
+            <!--slider Wrap-->
+        </section>
+        <!--@Banner Slider-->
+        <div class="p-md-5 p-3  ">
+            <!--New Releases-->
+            <section class="section">
+                <div class="d-flex relative align-items-center justify-content-between">
+                    <div class="mb-4">
+                        <h4>New Releases For You</h4>
+                        <p>Enjoy some new awesome music</p>
+                    </div>
+                    <a href="albums.html">View Albums<i class="icon-angle-right ml-3"></i></a>
+                </div>
+                <div class="lightSlider has-items-overlay playlist"
+                     data-item="6"
+                     data-item-lg="3"
+                     data-item-md="3"
+                     data-item-sm="2"
+                     data-auto="false"
+                     data-pager="false"
+                     data-controls="true"
+                     data-loop="false">
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="assets/img/demo/a8.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="assets/media/track2.mp3" data-wave="assets/media/track2.json">
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="album-single.html"><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>To Phir Ao</h5>
+                                            <span>Joe Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>To Phir Ao</h5>
+                                    <span>Joe Doe</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="assets/img/demo/a1.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a></li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="assets/media/track2.mp3" data-wave="assets/media/track2.json">
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="album-single.html"><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>To Phir Ao</h5>
+                                            <span>Joe Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>To Phir Ao</h5>
+                                    <span>Joe Doe</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="assets/img/demo/a2.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a></li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="assets/media/track2.mp3" data-wave="assets/media/track2.json">
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="album-single.html"><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>To Phir Ao</h5>
+                                            <span>Joe Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>To Phir Ao</h5>
+                                    <span>Joe Doe</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="assets/img/demo/a4.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a></li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="assets/media/track2.mp3" data-wave="assets/media/track2.json">
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="album-single.html"><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>To Phir Ao</h5>
+                                            <span>Joe Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>To Phir Ao</h5>
+                                    <span>Joe Doe</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="assets/img/demo/a5.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a></li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1413142894.mp3" 
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="album-single.html"><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>To Phir Ao</h5>
+                                            <span>Joe Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>To Phir Ao</h5>
+                                    <span>Joe Doe</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="assets/img/demo/a6.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a></li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="assets/media/track2.mp3" data-wave="assets/media/track2.json">
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="album-single.html"><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>To Phir Ao</h5>
+                                            <span>Joe Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>To Phir Ao</h5>
+                                    <span>Joe Doe</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="assets/img/demo/a7.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a></li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="assets/media/track2.mp3" data-wave="assets/media/track2.json">
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="album-single.html"><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>To Phir Ao</h5>
+                                            <span>Joe Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>To Phir Ao</h5>
+                                    <span>Joe Doe</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+
+                </div>
+            </section>
+            <!--@New Releases-->
+
+            <!--Latest Posts-->
+            <section class="section">
+                <div class="d-flex relative">
+                    <div class="mb-4">
+                        <h4>Latest Posts</h4>
+                        <p>Checkout What's new at our blog</p>
+                    </div>
+                </div>
+                <div class="lightSlider has-items-overlay"
+                     data-item="3"
+                     data-item-lg="2"
+                     data-item-md="1"
+                     data-item-sm="1"
+                     data-auto="false"
+                     data-pager="false"
+                     data-controls="true"
+                     data-loop="false">
+                    <div class="card">
+                        <figure class="card-img figure">
+                            <div class="img-wrapper">
+                                <img src="assets/img/demo/v5.jpg" alt="Card image">
+                            </div>
+                            <div class="img-overlay"></div>
+                            <div class="has-bottom-gradient">
+                                <div class="d-flex">
+                                    <div class="card-img-overlay">
+                                        <div class="pt-3 pb-3">
+                                            <a href="video-single.html">
+                                                <figure class="float-left mr-3 mt-1">
+                                                    <i class="icon-play s-36"></i>
+                                                </figure>
+                                                <div>
+                                                    <h5>Alexander Pierce</h5>
+                                                    <small> Latest Video Released</small>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="bottom-gradient bottom-gradient-thumbnail"></div>
+                    </div>
+                    <div class="card">
+                        <figure class="card-img figure">
+                            <div class="img-wrapper">
+                                <img src="assets/img/demo/v8.jpg" alt="Card image">
+                            </div>
+                            <div class="img-overlay text-white">
+                                <div class="figcaption">
+
+                                </div>
+                            </div>
+                            <div class="has-bottom-gradient">
+                                <div class="d-flex">
+                                    <div class="card-img-overlay">
+                                        <div class="pt-3 pb-3">
+                                            <a href="video-single.html">
+                                                <figure class="float-left mr-3 mt-1">
+                                                    <i class="icon-play s-36"></i>
+                                                </figure>
+                                                <div>
+                                                    <h5>Alexander Pierce</h5>
+                                                    <small> Latest Video Released</small>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="bottom-gradient bottom-gradient-thumbnail"></div>
+                    </div>
+                    <div>
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Record Music & Events Template</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                        <div class="p-3 d-none d-lg-block">
+                            <figure class="avatar avatar-md float-left mr-3 mt-1">
+                                <img src="assets/img/demo/u1.jpg" alt="">
+                            </figure>
+                            <div>
+                                <h6>Alexander Pierce</h6>
+                                alexander@paper.com
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card-img figure">
+                            <div class="img-wrapper">
+                                <img src="assets/img/demo/v9.jpg" alt="Card image">
+                            </div>
+                            <div class="img-overlay text-white">
+                                <div class="figcaption">
+
+                                </div>
+                            </div>
+                            <div class="has-bottom-gradient">
+                                <div class="d-flex">
+                                    <div class="card-img-overlay">
+                                        <div class="pt-3 pb-3">
+                                            <a href="video-single.html">
+                                                <figure class="float-left mr-3 mt-1">
+                                                    <i class="icon-play s-36"></i>
+                                                </figure>
+                                                <div>
+                                                    <h5>Alexander Pierce</h5>
+                                                    <small> Latest Video Released</small>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="bottom-gradient bottom-gradient-thumbnail"></div>
+                    </div>
+                    <div class="card">
+                        <figure class="card-img figure">
+                            <div class="img-wrapper">
+                                <img src="assets/img/demo/v10.jpg" alt="Card image">
+                            </div>
+                            <div class="img-overlay text-white">
+                                <div class="figcaption">
+
+                                </div>
+                            </div>
+                            <div class="has-bottom-gradient">
+                                <div class="d-flex">
+                                    <div class="card-img-overlay">
+                                        <div class="pt-3 pb-3">
+                                            <a href="video-single.html">
+                                                <figure class="float-left mr-3 mt-1">
+                                                    <i class="icon-play s-36"></i>
+                                                </figure>
+                                                <div>
+                                                    <h5>Alexander Pierce</h5>
+                                                    <small> Latest Video Released</small>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="bottom-gradient bottom-gradient-thumbnail"></div>
+                    </div>
+                </div>
+            </section>
+            <!--@New Releases-->
+
+            <!--PlayList & Events-->
+            <section class="section mt-4">
+                <div class="row row-eq-height">
+                    <div class="col-lg-8">
+                        <div class="card no-b mb-md-3 p-2">
+                            <div class="card-header no-bg transparent">
+                                <div class="d-flex justify-content-between">
+                                    <div class="align-self-center">
+                                        <div class="d-flex">
+                                            <!--<i class="icon-music s-36 mr-3  mt-2"></i>-->
+                                            <div>
+                                                <h4>Most Popular This Week</h4>
+                                                <p>Checkout What's new at our blog</p>
+                                                <div class="mt-3">
+                                                    <ul class="nav nav-tabs card-header-tabs nav-material responsive-tab mb-1"
+                                                        role="tablist">
+                                                        <li class="nav-item">
+                                                            <a class="nav-link active show" id="w2--tab1"
+                                                               data-toggle="tab" href="#w2-tab1"
+                                                               role="tab"
+                                                               aria-selected="true">陈奕迅</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="w3--tab6" data-toggle="tab"
+                                                               href="#w2-tab6"
+                                                               role="tab"
+                                                               aria-selected="false">忧伤</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="w4--tab3" data-toggle="tab"
+                                                               href="#w2-tab3"
+                                                               role="tab"
+                                                               aria-selected="false">毛不易</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="w5--tab4" data-toggle="tab"
+                                                               href="#w2-tab4" role="tab"
+
+                                                               aria-selected="false">节奏</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="w6--tab4" data-toggle="tab"
+                                                               href="#w2-tab4" role="tab"
+
+                                                               aria-selected="false">好听的英文歌</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="w7--tab2" data-toggle="tab"
+                                                               href="#w2-tab2" role="tab"
+
+                                                               aria-selected="false">林俊杰</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card-body no-p">
+                                <div class="tab-content" id="v-pills-tabContent1">
+                                    <div class="tab-pane fade show active" id="w2-tab1" role="tabpanel"
+                                         aria-labelledby="w2-tab1">
+                                       <div class="playlist pl-lg-3 pr-lg-3">
+                                        <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1315718569.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>富士山下.陈奕迅
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=28563317.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>阴天快乐.陈奕迅
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=65533.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>红玫瑰.陈奕迅
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=64561.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>单车(Live).陈奕迅
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=66282.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>浮夸.陈奕迅
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=65919.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>K歌之王 (Live).陈奕迅
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=65761.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>白玫瑰.陈奕迅
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=28481818.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>可以了.陈奕迅
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                           <div class="m-1 my-4">
+                                               <div class="d-flex align-items-center">
+                                                   <div class="col-1">
+                                                       <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=25730757.mp3">
+                                                           <i class="icon-play s-28"></i>
+                                                       </a>
+                                                   </div>
+                                                   <div class="col-md-6">
+
+                                                       </figure>
+                                                       <h6>稳稳的幸福.陈奕迅
+                                                   </div>
+                                                   <div class="col-md-5 d-none d-lg-block">
+                                                       <div class="d-flex">
+                                                           <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                           <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                           <div class="ml-auto">
+                                                               <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                                   <div class="col-1 ml-auto d-lg-none">
+                                                       <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                           <i class="icon-more-1"></i></a>
+                                                       <div class="dropdown-menu dropdown-menu-right">
+                                                           <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                           <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                    </div>
+                                    <div class="tab-pane fade show active" id="w2-tab2" role="tabpanel"
+                                         aria-labelledby="w2-tab2">
+                                       <div class="playlist pl-lg-3 pr-lg-3">
+                                        <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=26305527.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>江南.林俊杰
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=26305547.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>背对背拥抱.林俊杰
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=486194136.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>不为谁而作的歌.林俊杰
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=26305534.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>曹操.林俊杰
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=26305541.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>小酒窝.林俊杰
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=26305531.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>一千年以后.林俊杰
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=26305545.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>期待爱.林俊杰
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=247579.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>被风吹过的夏天.林俊杰
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                           <div class="m-1 my-4">
+                                               <div class="d-flex align-items-center">
+                                                   <div class="col-1">
+                                                       <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1391477429.mp3">
+                                                           <i class="icon-play s-28"></i>
+                                                       </a>
+                                                   </div>
+                                                   <div class="col-md-6">
+
+                                                       </figure>
+                                                       <h6>将故事写成我们.林俊杰
+                                                   </div>
+                                                   <div class="col-md-5 d-none d-lg-block">
+                                                       <div class="d-flex">
+                                                           <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                           <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                           <div class="ml-auto">
+                                                               <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                                   <div class="col-1 ml-auto d-lg-none">
+                                                       <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                           <i class="icon-more-1"></i></a>
+                                                       <div class="dropdown-menu dropdown-menu-right">
+                                                           <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                           <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                    </div>
+                                    <div class="tab-pane fade show active" id="w2-tab3" role="tabpanel"
+                                         aria-labelledby="w2-tab3">
+                                       <div class="playlist pl-lg-3 pr-lg-3">
+                                        <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=569213220.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>像我这样的人.毛不易
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=569200213.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>消愁.毛不易
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=536099160.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>不染.毛不易
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=569214247.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>平凡的一天.毛不易
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1407214788.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>二零三.毛不易
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1334270281.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>别再闹了.毛不易
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1325897605.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>那时的我们.毛不易
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1408763442.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>水乡.毛不易
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                           <div class="m-1 my-4">
+                                               <div class="d-flex align-items-center">
+                                                   <div class="col-1">
+                                                       <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1411558182.mp3">
+                                                           <i class="icon-play s-28"></i>
+                                                       </a>
+                                                   </div>
+                                                   <div class="col-md-6">
+
+                                                       </figure>
+                                                       <h6>东北民谣.毛不易
+                                                   </div>
+                                                   <div class="col-md-5 d-none d-lg-block">
+                                                       <div class="d-flex">
+                                                           <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                           <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                           <div class="ml-auto">
+                                                               <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                                   <div class="col-1 ml-auto d-lg-none">
+                                                       <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                           <i class="icon-more-1"></i></a>
+                                                       <div class="dropdown-menu dropdown-menu-right">
+                                                           <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                           <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                    </div>
+                                    <div class="tab-pane fade show active" id="w2-tab4" role="tabpanel"
+                                         aria-labelledby="w2-tab4">
+                                       <div class="playlist pl-lg-3 pr-lg-3">
+                                        <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=567795404.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>The Nights.Fandom
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=27570005.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>Pirates Of The Caribbean.Maksim Mrvica
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=26341514.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>Diamonds.Rihanna
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1348931712.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>Got It In You.Acoustic
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=26547568.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>Tangled Up.Caro Emerald
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=28123392.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>Counting Stars.Counting Stars
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=5109850.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>21 Guns.Green Day
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                           <div class="m-1 my-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=29753186.mp3">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6">
+
+                                                    </figure>
+                                                    <h6>In the Heat of the Moment.Noel Gallagher's High Flying Birds
+                                                </div>
+                                                <div class="col-md-5 d-none d-lg-block">
+                                                    <div class="d-flex">
+                                                        <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                        <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                        <div class="ml-auto">
+                                                            <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 ml-auto d-lg-none">
+                                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                        <i class="icon-more-1"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                        <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                           <div class="m-1 my-4">
+                                               <div class="d-flex align-items-center">
+                                                   <div class="col-1">
+                                                       <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1348823065.mp3">
+                                                           <i class="icon-play s-28"></i>
+                                                       </a>
+                                                   </div>
+                                                   <div class="col-md-6">
+
+                                                       </figure>
+                                                       <h6>i'm so tired... (Stripped - Live in LA)
+                                                   </div>
+                                                   <div class="col-md-5 d-none d-lg-block">
+                                                       <div class="d-flex">
+                                                           <span class="ml-auto"> 信仰圣光的歌单</span>
+                                                           <a  class="ml-auto"><i class="icon-share-1"></i></a>
+                                                           <div class="ml-auto">
+                                                               <a class="btn btn-outline-primary btn-sm">Join the collection</a>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                                   <div class="col-1 ml-auto d-lg-none">
+                                                       <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                           <i class="icon-more-1"></i></a>
+                                                       <div class="dropdown-menu dropdown-menu-right">
+                                                           <a  class="dropdown-item" ><i class="icon-share-1 mr-3"></i> Share</a>
+                                                           <a  class="dropdown-item" ><i class="icon-shopping-bag mr-3"></i>Join the collection</a>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="w2-tab6" role="tabpanel"
+                                         aria-labelledby="w2-tab6">
+                                        <div class="card-body has-items-overlay playlist p-5">
+                                            <div class="row">
+                                                <div class="col-md-3 mb-3">
+                                                    <figure class="mb-2">
+                                                        <div class="img-wrapper r-10">
+                                                            <img class=" r-10" src="http://p2.music.126.net/sDu_Al0lMMGp-4tbSLAXJw==/109951165958897327.jpg"
+                                                                 alt="/">
+                                                            <div class="img-overlay text-white p-5">
+                                                                <div class="center-center">
+                                                                    <a class="no-ajaxy media-url"
+                                                                       href="http://music.163.com/song/media/outer/url?id=1315718569.mp3">
+                                                                        <i class="icon-play s-48"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </figure>
+                                                    <div class="figure-title">
+                                                        <h6>有一种悲伤</h6>
+                                                        <small>A-Lin</small>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <figure class="mb-2">
+                                                        <div class="img-wrapper r-10">
+                                                            <img class=" r-10" src="http://p2.music.126.net/gNbAlXamNjhR2j3aOukNhg==/109951164232796511.jpg"
+                                                                 alt="/">
+                                                            <div class="img-overlay text-white p-5">
+                                                                <div class="center-center">
+                                                                    <a class="no-ajaxy media-url"
+                                                                       href="http://music.163.com/song/media/outer/url?id=1346093140.mp3">
+                                                                        <i class="icon-play s-48"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </figure>
+                                                    <div class="figure-title">
+                                                        <h6>关于孤独我想说的话</h6>
+                                                        <small>隔壁老樊</small>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <figure class="mb-2">
+                                                        <div class="img-wrapper r-10">
+                                                            <img class=" r-10" src="http://p1.music.126.net/aMVPsO00OqlVTS2yMH8RgA==/109951163785600029.jpg"
+                                                                 alt="/">
+                                                            <div class="img-overlay text-white p-5">
+                                                                <div class="center-center">
+                                                                    <a class="no-ajaxy media-url"
+                                                                       href="http://music.163.com/song/media/outer/url?id=1338695683.mp3">
+                                                                        <i class="icon-play s-48"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </figure>
+                                                    <div class="figure-title">
+                                                        <h6>起风了</h6>
+                                                        <small>吴青峰</small>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <figure class="mb-2">
+                                                        <div class="img-wrapper r-10">
+                                                            <img class=" r-10" src="http://p1.music.126.net/gNbAlXamNjhR2j3aOukNhg==/109951164232796511.jpg"
+                                                                 alt="/">
+                                                            <div class="img-overlay text-white p-5">
+                                                                <div class="center-center">
+                                                                    <a class="no-ajaxy media-url"
+                                                                       href="http://music.163.com/song/media/outer/url?id=1303289043.mp3">
+                                                                        <i class="icon-play s-48"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </figure>
+                                                    <div class="figure-title">
+                                                        <h6>多想在平庸的生活拥抱你</h6>
+                                                        <small>隔壁老樊</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-3 mb-3">
+                                                    <figure class="mb-2">
+                                                        <div class="img-wrapper r-10">
+                                                            <img class=" r-10" src="http://p2.music.126.net/uxyYBS5jhmi_DN4xDYy3eg==/7872503255697381.jpg"
+                                                                 alt="/">
+                                                            <div class="img-overlay text-white p-5">
+                                                                <div class="center-center">
+                                                                    <a class="no-ajaxy media-url"
+                                                                       href="http://music.163.com/song/media/outer/url?id=31445554.mp3">
+                                                                        <i class="icon-play s-48"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </figure>
+                                                    <div class="figure-title">
+                                                        <h6>七月上</h6>
+                                                        <small>Jam</small>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <figure class="mb-2">
+                                                        <div class="img-wrapper r-10">
+                                                            <img class=" r-10" src="http://p2.music.126.net/zYIadX_Prawn3nMTRA9tOQ==/109951164928052888.jpg"
+                                                                 alt="/">
+                                                            <div class="img-overlay text-white p-5">
+                                                                <div class="center-center">
+                                                                    <a class="no-ajaxy media-url"
+                                                                       href="http://music.163.com/song/media/outer/url?id=1442508316.mp3">
+                                                                        <i class="icon-play s-48"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </figure>
+                                                    <div class="figure-title">
+                                                        <h6>丢了你</h6>
+                                                        <small>井胧</small>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <figure class="mb-2">
+                                                        <div class="img-wrapper r-10">
+                                                            <img class=" r-10" src="http://p2.music.126.net/1XfoEJK6dQ2TEw55eXZLfA==/109951165418603915.jpg"
+                                                                 alt="/">
+                                                            <div class="img-overlay text-white p-5">
+                                                                <div class="center-center">
+                                                                    <a class="no-ajaxy media-url"
+                                                                       href="http://music.163.com/song/media/outer/url?id=1479706965.mp3">
+                                                                        <i class="icon-play s-48"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </figure>
+                                                    <div class="figure-title">
+                                                        <h6>是你想成为的大人吗</h6>
+                                                        <small>尤长靖</small>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <figure class="mb-2">
+                                                        <div class="img-wrapper r-10">
+                                                            <img class=" r-10" src="http://p2.music.126.net/F_TTMR927naM6J-GzPP3RA==/109951164363518103.jpg"
+                                                                 alt="/">
+                                                            <div class="img-overlay text-white p-5">
+                                                                <div class="center-center">
+                                                                    <a class="no-ajaxy media-url"
+                                                                       href="http://music.163.com/song/media/outer/url?id=1390853266.mp3">
+                                                                        <i class="icon-play s-48"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </figure>
+                                                    <div class="figure-title">
+                                                        <h6>寂寞寂寞就好</h6>
+                                                        <small>寂寞寂寞就好</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="mb-3 card p-3">
+                            <div>
+                                <div class="mr-3 float-left text-center">
+                                    <div class="s-36">09</div>
+                                    <span>July</span>
+                                </div>
+                                <div>
+                                    <div>
+                                        <a href="events-single.html">
+                                            <h4 class="text-primary">New York park live</h4>
+                                        </a>
+                                    </div>
+                                    <small> 33 Cliveden Close, Melbourne VIC 3000, Australia</small>
+                                    <div class="mt-2">
+                                        <i class="icon-clock-o mr-1"> </i> 7:00 PM - 11:00 PM
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <small class="my-3">Artist Performing</small>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="avatar-group">
+                                    <figure class="avatar no-shadow">
+                                        <img src="assets/img/demo/u4.jpg" alt=""></figure>
+                                    <figure class="avatar no-shadow">
+                                        <img src="assets/img/demo/u5.jpg" alt=""></figure>
+                                    <figure class="avatar no-shadow">
+                                        <img src="assets/img/demo/u6.jpg" alt=""></figure>
+                                </div>
+                                <div>
+                                    <a href="events-single.html">Buy Tickets</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3 card p-3">
+                            <div>
+                                <div class="mr-3 float-left text-center">
+                                    <div class="s-36">09</div>
+                                    <span>March</span>
+                                </div>
+                                <div>
+                                    <div>
+                                        <a href="events-single.html">
+                                            <h4 class="text-primary">Linkin park live</h4>
+                                        </a>
+                                    </div>
+                                    <small> 33 Cliveden Close, Melbourne VIC 3000, Australia</small>
+                                    <div class="mt-2">
+                                        <i class="icon-clock-o mr-1"> </i> 7:00 PM - 11:00 PM
+                                    </div>
+                                </div>
+                            </div>
+
+                            <small class="my-3">Artist Performing</small>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="avatar-group">
+                                    <figure class="avatar no-shadow">
+                                        <img src="assets/img/demo/u4.jpg" alt=""></figure>
+                                    <figure class="avatar no-shadow">
+                                        <img src="assets/img/demo/u5.jpg" alt=""></figure>
+                                    <figure class="avatar no-shadow">
+                                        <img src="assets/img/demo/u6.jpg" alt=""></figure>
+                                </div>
+                                <div>
+                                    <a href="events-single.html">Buy Tickets</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3 card">
+                            <figure class="card-img figure">
+                                <div class="img-wrapper">
+                                    <img class="r-3" src="assets/img/demo/v11.jpg" alt="Card image">
+                                </div>
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                    </div>
+                                </div>
+                                <div class="has-bottom-gradient">
+                                    <div class="d-flex">
+                                        <div class="card-img-overlay">
+                                            <div>
+                                                <div class="mr-3 float-left text-center">
+                                                    <div class="s-36">24</div>
+                                                    <span>July</span>
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        <a href="events-single.html">
+                                                            <h4 class="text-primary">Linkin park live</h4>
+                                                        </a>
+                                                    </div>
+                                                    <small> 33 Cliveden Close, Melbourne VIC 3000, Australia</small>
+                                                    <div class="mt-2">
+                                                        <i class="icon-clock-o mr-1"> </i> 7:00 PM - 11:00 PM
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="bottom-gradient"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--@PlayLIst & Events-->
+
+            <!--Recommend-->
+            <section class="section">
+                <div class="d-flex relative align-items-center justify-content-between">
+                    <div class="mb-4">
+                        <h4>Recommended For You</h4>
+                        <p>Enjoy some new awesome music</p>
+                    </div>
+                    <a href="">信仰圣光<i class="icon-angle-right ml-3"></i></a>
+                </div>
+                <div class="lightSlider has-items-overlay playlist"
+                     data-item="6"
+                     data-item-lg="3"
+                     data-item-md="3"
+                     data-item-sm="2"
+                     data-auto="false"
+                     data-pager="false"
+                     data-controls="true"
+                     data-loop="false">
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="http://p2.music.126.net/H3Q3SeMVtuHvHY2uyaQdOw==/109951163472855051.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a></li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1303289043.mp3">
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="album-single.html"><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>囍（Chinese Wedding）</h5>
+                                            <span>Joe Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>囍（Chinese Wedding）</h5>
+                                    <span>葛东琪</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="http://p2.music.126.net/euQZW9eOZ3-dtInKCsBZCA==/109951165546490398.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a></li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1428270358.mp3">
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href=""><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>今夜无法入眠</h5>
+                                            <span>帆布小镇（Canvas Townlet）</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>今夜无法入眠</h5>
+                                    <span>帆布小镇（Canvas Townlet）</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="http://p2.music.126.net/CcthX_ZCexIdriZADoNn3g==/109951165628166191.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a></li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=26305531.mp3">
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href=""><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>一千年以后</h5>
+                                            <span>林俊杰</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>一千年以后</h5>
+                                    <span>林俊杰</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="http://p1.music.126.net/3hqcQrXZ39kDCCzV7QbZjA==/34084860473122.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a></li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=167850.mp3">
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href=""><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>庐州月</h5>
+                                            <span>许嵩</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>庐州月</h5>
+                                    <span>许嵩</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="http://p2.music.126.net/WyVdZ3Uam5ToMa3PB5KYdw==/109951165038760831.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a></li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=453162682.mp3">
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href=""><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>春风不解意</h5>
+                                            <span>邵帅 / 要不要买菜</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>春风不解意</h5>
+                                    <span>邵帅 / 要不要买菜</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="http://p1.music.126.net/TdqG8yFWSZgQqH2K235MgA==/109951163434990771.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a></li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=1297802566.mp3">
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href=""><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>盗墓笔记·十年人间</h5>
+                                            <span>李常超 (Lao乾妈)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>盗墓笔记·十年人间</h5>
+                                    <span>李常超 (Lao乾妈)</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <div class="img-wrapper">
+                                <img src="http://p1.music.126.net/fsXjbojiD5IisEoK__NfHg==/109951163462214000.jpg" alt="/">
+                                <div class="img-overlay text-white">
+                                    <div class="figcaption">
+                                        <ul class="list-inline d-flex align-items-center justify-content-between">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="snackbar" data-text="Added to favourites"
+                                                   data-pos="top-right"
+                                                   data-showAction="true"
+                                                   data-actionText="ok"
+                                                   data-actionTextColor="#fff"
+                                                   data-backgroundColor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a></li>
+                                            <li class="list-inline-item ">
+                                                <a class="no-ajaxy media-url" href="http://music.163.com/song/media/outer/url?id=256467.mp3">
+                                                    <i class="icon-play s-48"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href=""><i
+                                                        class="icon-more s-18 pt-3"></i></a></li>
+                                        </ul>
+                                        <div class="text-center mt-5">
+                                            <h5>爱不释手</h5>
+                                            <span>李丽芬</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figure-title text-center p-2">
+                                    <h5>爱不释手</h5>
+                                    <span>李丽芬</span>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+
+                </div>
+            </section>
+            <!--@Recommend-->
+
+        </div>
+    </div>
+</div>
+</main><!--@Page Content-->
+</div><!--@#app-->
+<!--/#app -->
+<script src="http://ditu.google.cn/maps/api/js?&key=AIzaSyC3YkZNNySdyR87o83QEHWglHfHD_PZqiw&libraries=places"></script>
+<script src="assets/js/app.js"></script>
+
+
+</body>
+</html>
